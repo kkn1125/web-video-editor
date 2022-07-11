@@ -34,26 +34,27 @@
 <div>&emsp;│││&emsp;└─ 📂 VideoContainer/　-----------> 비디오 preview</div>
 <div>&emsp;││├┬ 📂 pages/</div>
 <div>&emsp;│││└─ 📄 edit.tsx　-----------> 메인 페이지</div>
+<!-- store start -->
 <div>&emsp;││├┬ 📂 store/　-----------> store구성은 action/reducer[/sagas] 로 구성</div>
-<div>&emsp;│││├┬ 📂 crop/</div>
+<div>&emsp;│││├┬ 📂 crop/　-----------> 영상 길이 자르기 기능</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││├─ 📄 reducer.ts</div>
 <div>&emsp;││││└─ 📄 sagas.ts</div>
-<div>&emsp;│││├┬ 📂 currentVideo/</div>
+<div>&emsp;│││├┬ 📂 currentVideo/　-----------> 현재 비디오 상태 관리</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││└─ 📄 reducer.ts</div>
 <div>&emsp;│││├┬ 📂 history/</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││├─ 📄 reducer.ts</div>
 <div>&emsp;││││└─ 📄 sagas.ts</div>
-<div>&emsp;│││├┬ 📂 originVideo/</div>
+<div>&emsp;│││├┬ 📂 originVideo/　-----------> 원본 비디오 상태 관리</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││├─ 📄 reducer.ts</div>
 <div>&emsp;││││└─ 📄 sagas.ts</div>
 <div>&emsp;│││├┬ 📂 user/</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││└─ 📄 reducer.ts</div>
-<div>&emsp;│││├┬ 📂 video/</div>
+<div>&emsp;│││├┬ 📂 video/　-----------> 영상 업로드, 가져오기 상태 관리</div>
 <div>&emsp;││││├─ 📄 actions.ts</div>
 <div>&emsp;││││├─ 📄 reducer.ts</div>
 <div>&emsp;││││└─ 📄 sagas.ts</div>
@@ -61,6 +62,7 @@
 <div>&emsp;│││├─ 📄 reducer.ts</div>
 <div>&emsp;│││├─ 📄 sagas.ts</div>
 <div>&emsp;│││└─ 📄 selectors.ts</div>
+<!-- store end -->
 <div>&emsp;││├┬ 📂 theme/</div>
 <div>&emsp;│││├─ 📄 colors.tsx</div>
 <div>&emsp;│││├─ 📄 globalStyles.tsx</div>
@@ -69,17 +71,21 @@
 <div>&emsp;│││├─ 📄 convert.ts</div>
 <div>&emsp;│││├─ 📄 error.ts</div>
 <div>&emsp;│││└─ 📄 time.ts</div>
+<!-- video start -->
 <div>&emsp;││├┬ 📂 video/</div>
 <div>&emsp;│││├─ 📄 encoding.ts</div>
 <div>&emsp;│││├─ 📄 index.tsx</div>
 <div>&emsp;│││├─ 📄 metadata.ts</div>
 <div>&emsp;│││├─ 📄 mux.ts</div>
 <div>&emsp;│││└─ 📄 video.tsx</div>
+<!-- video end -->
+<!-- webgl start -->
 <div>&emsp;││├┬ 📂 webgl/</div>
 <div>&emsp;│││├─ 📄 fragmentShaderSource.ts</div>
 <div>&emsp;│││├─ 📄 vertexShaderSource.ts</div>
 <div>&emsp;│││├─ 📄 webglConfig.ts</div>
 <div>&emsp;│││└─ 📄 webglController.ts</div>
+<!-- webgl end -->
 <div>&emsp;││├─ 📄 App.tsx</div>
 <div>&emsp;││├─ 📄 index.html</div>
 <div>&emsp;││└─ 📄 index.tsx</div>
