@@ -12,8 +12,6 @@ import {
 } from '../actionTypes';
 import { CropAction } from '../currentVideo/actions';
 
-export enum
-
 export enum Effect {
   RotateCounterClockwise,
   RotateClockwise,
